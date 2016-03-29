@@ -1,0 +1,33 @@
+PODS:
+  - BRFullTextSearch (1.0.7):
+    - BRFullTextSearch/Core (= 1.0.7)
+  - BRFullTextSearch/API (1.0.7)
+  - BRFullTextSearch/CLucene (1.0.7):
+    - BRFullTextSearch/CLucene-Contribs-Lib
+    - BRFullTextSearch/CLucene-Core
+    - BRFullTextSearch/CLucene-Shared
+  - BRFullTextSearch/CLucene-Config (1.0.7)
+  - BRFullTextSearch/CLucene-Contribs-Lib (1.0.7):
+    - BRFullTextSearch/CLucene-Core
+    - BRFullTextSearch/CLucene-Shared
+  - BRFullTextSearch/CLucene-Core (1.0.7):
+    - BRFullTextSearch/CLucene-Core-API
+    - BRFullTextSearch/CLucene-Shared
+  - BRFullTextSearch/CLucene-Core-API (1.0.7):
+    - BRFullTextSearch/CLucene-Config
+  - BRFullTextSearch/CLucene-Shared (1.0.7):
+    - BRFullTextSearch/CLucene-Core-API
+  - BRFullTextSearch/Core (1.0.7):
+    - BRFullTextSearch/API
+    - BRFullTextSearch/Implementation-CLucene
+  - BRFullTextSearch/Implementation-CLucene (1.0.7):
+    - BRFullTextSearch/API
+    - BRFullTextSearch/CLucene
+
+DEPENDENCIES:
+  - BRFullTextSearch (= 1.0.7)
+
+SPEC CHECKSUMS:
+  BRFullTextSearch: 717709839455c8eb5bbb4c9906618169c9d560f2
+
+COCOAPODS: 0.39.0
